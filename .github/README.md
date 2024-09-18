@@ -1,5 +1,5 @@
 # Tailwind Meteors
-![preview](./assets/preview.png)
+![preview](./assets/preview.gif)
 
 This is a Tailwind, Next.js application that demonstrates moving meteors from top-left of the screen to the bottom-right of the screen.
 
