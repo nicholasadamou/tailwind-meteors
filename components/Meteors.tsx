@@ -5,10 +5,10 @@ import React from 'react';
 export function Meteors() {
   const meteors = Array.from({ length: 20 }, (_, index) => ({
     id: index,
-    top: -Math.floor(Math.random() * 5) + '%', // negative to start off screen
-    left: Math.floor(Math.random() * 100) + '%', // random position on screen
-    animationDelay: Math.random() * 2 + 's',
-    animationDuration: Math.floor(Math.random() * 8 + 5) + 's', // random duration between 5-12s
+    top: -Math.floor(Math.random() * 5) + '%', // Starts slightly off the top of the screen
+    left: Math.floor(Math.random() * 100) + '%', // Random position across the screen width
+    animationDelay: Math.random() * 2 + 's', // Randomized delay for each meteor
+    animationDuration: Math.floor(Math.random() * 8 + 5) + 's', // Random duration for varied
   }));
 
   return (
